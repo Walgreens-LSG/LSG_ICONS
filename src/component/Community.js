@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { Image} from '@chakra-ui/react';
 
 //list of imported Walgreens LSG Icons
-import Community from "../stories/assets/individual/community.svg";
+import { ReactComponent as Community} from "../stories/assets/individual/community.svg";
 
 
 //Storybook Constants
@@ -20,7 +20,7 @@ export const WagIconCommunity = ({
         SIXTYFOUR:"sixty-four",
     };
 
-    const WagIconCommunity = styled(Image)`
+    const WagIconCommunity = styled(Community)`
       
         ${(props)=>
         props.size === KIND.DEFAULT &&
@@ -41,7 +41,7 @@ export const WagIconCommunity = ({
        {...props}
        size={size}
        alt={props.alt}
-       src={Community}       
+       fill={props.fill}       
        />
    );
 };
@@ -57,11 +57,15 @@ size:PropTypes.oneOf(["default", "sixty-four"]),
 * What is your SVG's Alternative Text?
  */
  alt:PropTypes.string.isRequired,
-
+/**
+ * What color is your SVG Icon?
+ */
+ fill:PropTypes.string,
 
 };
 
 WagIconCommunity.defaultProps = {
     size:"default",
-    alt: "Alert",
+    alt: "Community",
+    fill:"#284b9b"
 };

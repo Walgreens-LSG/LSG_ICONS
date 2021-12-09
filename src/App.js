@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import React from 'react';
 import './App.css';
 
+import {ReactComponent as SignIn } from "../stories/assets/individual/sign-in.svg";
+
+
 function App() {
   return (
     <div className="App">

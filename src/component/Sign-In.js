@@ -1,11 +1,10 @@
 import React from "react";
 import styled from "@emotion/styled";
 import PropTypes from "prop-types";
-import { Image} from '@chakra-ui/react';
+
 
 //list of imported Walgreens LSG Icons
-import SignIn from "../stories/assets/individual/sign-in.svg";
-
+import {ReactComponent as SignIn } from "../stories/assets/individual/sign-in.svg";
 
 //Storybook Constants
 export const WagIconSignIn = ({
@@ -20,7 +19,7 @@ export const WagIconSignIn = ({
         SIXTYFOUR:"sixty-four",
     };
 
-    const WagIconSignIn = styled(Image)`
+    const WagIconSignIn = styled(SignIn)`
       
         ${(props)=>
         props.size === KIND.DEFAULT &&
@@ -41,8 +40,8 @@ export const WagIconSignIn = ({
        {...props}
        size={size}
        alt={props.alt}
-       src={SignIn}       
-       />
+       fill={props.fill}
+       > </WagIconSignIn>
    );
 };
 
@@ -57,11 +56,14 @@ size:PropTypes.oneOf(["default", "sixty-four"]),
 * What is your SVG's Alternative Text?
  */
  alt:PropTypes.string.isRequired,
-
-
+/**
+ * What color is your SVG Icon?
+ */
+fill:PropTypes.string,
 };
 
 WagIconSignIn.defaultProps = {
     size:"default",
-    alt: "Alert",
+    alt: "Sign In",
+    fill:"#284b9b"
 };

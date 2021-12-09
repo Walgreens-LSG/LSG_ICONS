@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { Image} from '@chakra-ui/react';
 
 //list of imported Walgreens LSG Icons
-import Nurse from "../stories/assets/individual/nurse.svg";
+import {ReactComponent as Nurse} from "../stories/assets/individual/nurse.svg";
 
 
 //Storybook Constants
@@ -20,7 +20,7 @@ export const WagIconNurse = ({
         SIXTYFOUR:"sixty-four",
     };
 
-    const WagIconNurse = styled(Image)`
+    const WagIconNurse = styled(Nurse)`
       
         ${(props)=>
         props.size === KIND.DEFAULT &&
@@ -41,7 +41,7 @@ export const WagIconNurse = ({
        {...props}
        size={size}
        alt={props.alt}
-       src={Nurse}       
+       fill={props.fill}       
        />
    );
 };
@@ -57,11 +57,15 @@ size:PropTypes.oneOf(["default", "sixty-four"]),
 * What is your SVG's Alternative Text?
  */
  alt:PropTypes.string.isRequired,
-
+/**
+ * What color is your SVG Icon?
+ */
+ fill:PropTypes.string
 
 };
 
 WagIconNurse.defaultProps = {
     size:"default",
-    alt: "Alert",
+    alt: "Care",
+    fill:"#284b9b"
 };

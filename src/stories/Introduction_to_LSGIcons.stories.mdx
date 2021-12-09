@@ -10,6 +10,7 @@ import {WagIconNurse} from '../component/Nurse.js';
 import {WagIconPharmacist} from '../component/Pharmacist.js';
 import {WagIconSignIn} from '../component/Sign-In.js';
 
+
 <Meta title="Example/Introduction to LSG Icons" />
 
 <style>{`
@@ -23,6 +24,15 @@ import {WagIconSignIn} from '../component/Sign-In.js';
     text-transform: uppercase;
     margin-bottom: 12px;
     margin-top: 40px;
+  }
+
+  table{
+    width: content-fit;
+    height: fit-content;
+  }
+
+  svg{
+    //fill: #ffffff;
   }
 
   .link-list {
@@ -162,12 +172,12 @@ Available library icons are listed below based on category.
       <td>Sign In</td>
     </tr>
   </table>
-</div>
 
-<div className="subheading">Alerts</div>
-
-<div className="link-list">
   <table>
+    <tr>
+      <th className="subheading">Chat Icons</th>
+      <th></th>
+    </tr>
     <tr>
       <th>Icon</th>
       <th>Icon Name</th>
@@ -177,6 +187,28 @@ Available library icons are listed below based on category.
       <td>Alert</td>
     </tr>
   </table>
+
+
+  <table>
+    <tr>
+      <th className="subheading">Alert Icons</th>
+      <th></th>
+    </tr>
+    <tr>
+      <th>Icon</th>
+      <th>Icon Name</th>
+    </tr>
+    <tr>
+      <td><WagIconAlert size="sixty-four"/></td>
+      <td>Alert</td>
+    </tr>
+  </table>
+</div>
+
+<div className="subheading">Alerts</div>
+
+<div className="link-list">
+  
 </div>
 
 

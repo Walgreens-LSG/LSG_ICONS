@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "@emotion/styled";
 import PropTypes from "prop-types";
-import { Image} from '@chakra-ui/react';
 
 //list of imported Walgreens LSG Icons
-import Alert from "../stories/assets/individual/alert.svg";
+import {ReactComponent as Alert} from "../stories/assets/individual/alert.svg";
 
 
 //Storybook Constants
@@ -20,7 +19,7 @@ export const WagIconAlert = ({
         SIXTYFOUR:"sixty-four",
     };
 
-    const WagIconAlert = styled(Image)`
+    const WagIconAlert = styled(Alert)`
       
         ${(props)=>
         props.size === KIND.DEFAULT &&
@@ -41,7 +40,7 @@ export const WagIconAlert = ({
        {...props}
        size={size}
        alt={props.alt}
-       src={Alert}       
+       fill={props.fill}       
        />
    );
 };
@@ -57,11 +56,15 @@ size:PropTypes.oneOf(["default", "sixty-four"]),
 * What is your SVG's Alternative Text?
  */
  alt:PropTypes.string.isRequired,
-
+/**
+ * What color is your SVG Icon?
+ */
+ fill:PropTypes.string,
 
 };
 
 WagIconAlert.defaultProps = {
     size:"default",
     alt: "Alert",
+    fill:"#284b9b"
 };
