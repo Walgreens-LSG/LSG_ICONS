@@ -3,11 +3,11 @@ import styled from "@emotion/styled";
 import PropTypes from "prop-types";
 
 //list of imported Walgreens LSG Icons
-import {ReactComponent as Avatar} from "../stories/assets/individual/avatar.svg";
+import {ReactComponent as Clock} from "../stories/assets/individual/clock.svg";
 
 
 //Storybook Constants
-export const WagIconAvatar = ({
+export const WagIconClock = ({
     
     //component props
     children,
@@ -19,7 +19,7 @@ export const WagIconAvatar = ({
         SIXTYFOUR:"sixty-four",
     };
 
-    const WagIconAvatar = styled(Avatar)`
+    const WagIconClock = styled(Clock)`
       
         ${(props)=>
         props.size === KIND.DEFAULT &&
@@ -36,18 +36,18 @@ export const WagIconAvatar = ({
   
    
     return(
-       <WagIconAvatar
+       <WagIconClock
        {...props}
        size={size}
        alt={props.alt}
-       fill={props.fill}       
+       fill={props.fill}
        />
    );
 };
 
 
 
-WagIconAvatar.propTypes = {
+WagIconClock.propTypes = {
 /**
  * What kind of Icon will you be using? 32x32(default) , 64x64, or other...
  */
@@ -63,8 +63,8 @@ size:PropTypes.oneOf(["default", "sixty-four"]),
 
 };
 
-WagIconAvatar.defaultProps = {
+WagIconClock.defaultProps = {
     size:"default",
-    alt: "Alert",
+    alt: "Clock",
     fill: "#284b9b"
 };

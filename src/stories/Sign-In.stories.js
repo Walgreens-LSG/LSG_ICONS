@@ -22,6 +22,7 @@ const Template = (args) => (
       <WagIconSignIn 
       size={args.size}
       alt={args.alt}
+      fill={args.fill}
     />
      
 );

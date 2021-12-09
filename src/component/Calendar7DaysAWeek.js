@@ -3,11 +3,11 @@ import styled from "@emotion/styled";
 import PropTypes from "prop-types";
 
 //list of imported Walgreens LSG Icons
-import {ReactComponent as Avatar} from "../stories/assets/individual/avatar.svg";
+import {ReactComponent as Calendar} from "../stories/assets/individual/7-days-a-week.svg";
 
 
 //Storybook Constants
-export const WagIconAvatar = ({
+export const WagIconCalendar7DaysAWeek = ({
     
     //component props
     children,
@@ -19,7 +19,7 @@ export const WagIconAvatar = ({
         SIXTYFOUR:"sixty-four",
     };
 
-    const WagIconAvatar = styled(Avatar)`
+    const WagIconCalendar7DaysAWeek = styled(Calendar)`
       
         ${(props)=>
         props.size === KIND.DEFAULT &&
@@ -36,18 +36,18 @@ export const WagIconAvatar = ({
   
    
     return(
-       <WagIconAvatar
+       <WagIconCalendar7DaysAWeek
        {...props}
        size={size}
        alt={props.alt}
-       fill={props.fill}       
+       fill={props.fill}
        />
    );
 };
 
 
 
-WagIconAvatar.propTypes = {
+WagIconCalendar7DaysAWeek.propTypes = {
 /**
  * What kind of Icon will you be using? 32x32(default) , 64x64, or other...
  */
@@ -63,8 +63,8 @@ size:PropTypes.oneOf(["default", "sixty-four"]),
 
 };
 
-WagIconAvatar.defaultProps = {
+WagIconCalendar7DaysAWeek.defaultProps = {
     size:"default",
-    alt: "Alert",
+    alt: "Calendar",
     fill: "#284b9b"
 };

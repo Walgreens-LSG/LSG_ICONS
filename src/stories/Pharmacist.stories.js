@@ -22,6 +22,7 @@ const Template = (args) => (
       <WagIconPharmacist
       size={args.size}
       alt={args.alt}
+      fill={args.fill}
     />
      
 );

@@ -21,6 +21,7 @@ const Template = (args) => (
     <WagIconAvatarAlt 
       size={args.size}
       alt={args.alt}
+      fill={args.fill}
     />
 );
 
