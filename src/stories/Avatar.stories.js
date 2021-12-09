@@ -6,7 +6,7 @@ import { WagIconAvatar } from "../component/Avatar";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Component/ Avatar",
+  title: "General Icons/ Avatar",
   component: WagIconAvatar,
    subcomponent: {  },
   argTypes: {

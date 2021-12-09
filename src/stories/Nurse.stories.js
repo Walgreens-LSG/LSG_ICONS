@@ -2,13 +2,12 @@ import { propNames } from "@chakra-ui/react";
 import React from "react";
 
 //import icon below
-import { WagIconAlert } from "../component/Alert";
-
+import {WagIconNurse} from "../component/Nurse.js";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Alert Icons/ Alert",
-  component: WagIconAlert,
+  title: "General Icons/ Nurse",
+  component: WagIconNurse,
    subcomponent: {  },
   argTypes: {
     
@@ -19,7 +18,7 @@ export default {
 //👇 We create a “template” of how args map to rendering
 const Template = (args) => (
 
-    <WagIconAlert 
+    <WagIconNurse
       size={args.size}
       alt={args.alt}
     />
@@ -30,12 +29,12 @@ Default.args = {
 };
 
 export const Smaller_Size = () => (
-  <WagIconAlert
+  <WagIconNurse
   />
 );
 
 export const Larger_Size = () => (
-  <WagIconAlert
+  <WagIconNurse
     size="sixty-four"
   />
 );
