@@ -1,13 +1,14 @@
 //import { propNames } from "@chakra-ui/react";
 import React from "react";
+import { WagIconSameDayDelivery } from "../component/SameDayDelivery";
 
 //import icon below
-import {WagIconInStore} from "../component/In-Store";
+
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Delivery Icons/ In Store",
-  component: WagIconInStore,
+  title: "Delivery Icons / Same day delivery",
+  component: WagIconSameDayDelivery,
    subcomponent: {  },
   argTypes: {
     
@@ -19,7 +20,7 @@ export default {
 const Template = (args) => (
 
    
-      <WagIconInStore 
+      <WagIconSameDayDelivery
       size={args.size}
       alt={args.alt}
       fill={args.fill}
@@ -32,12 +33,12 @@ Default.args = {
 };
 
 export const Smaller_Size = () => (
-  <WagIconInStore
+  <WagIconSameDayDelivery
   />
 );
 
 export const Larger_Size = () => (
-  <WagIconInStore
+  <WagIconSameDayDelivery
     size="sixty-four"
   />
 );

@@ -3,11 +3,11 @@ import styled from "@emotion/styled";
 import PropTypes from "prop-types";
 
 //list of imported Walgreens LSG Icons
-import {ReactComponent as InStore} from "../stories/assets/individual/in-store.svg";
+import {ReactComponent as SameDayDelivery} from "../stories/assets/individual/same-day.svg";
 
 
 //Storybook Constants
-export const WagIconInStore = ({
+export const WagIconSameDayDelivery = ({
     
     //component props
     children,
@@ -19,7 +19,7 @@ export const WagIconInStore = ({
         SIXTYFOUR:"sixty-four",
     };
 
-    const WagIconInStore = styled(InStore)`
+    const WagIconSameDayDelivery = styled(SameDayDelivery)`
       
         ${(props)=>
         props.size === KIND.DEFAULT &&
@@ -36,7 +36,7 @@ export const WagIconInStore = ({
   
    
     return(
-       <WagIconInStore
+       <WagIconSameDayDelivery
        {...props}
        size={size}
        alt={props.alt}
@@ -48,7 +48,7 @@ export const WagIconInStore = ({
 
 
 
-WagIconInStore.propTypes = {
+WagIconSameDayDelivery.propTypes = {
 /**
  * What kind of Icon will you be using? 32x32(default) , 64x64, or other...
  */
@@ -64,8 +64,8 @@ size:PropTypes.oneOf(["default", "sixty-four"]),
 
 };
 
-WagIconInStore.defaultProps = {
+WagIconSameDayDelivery.defaultProps = {
     size:"default",
-    alt: "In Store",
+    alt: "Same day delivery",
     fill:"#284b9b"
 };

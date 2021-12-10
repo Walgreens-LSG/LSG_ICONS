@@ -2,12 +2,12 @@
 import React from "react";
 
 //import icon below
-import {WagIconInStore} from "../component/In-Store";
+import {WagIconReorder} from '../component/Reorder';
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Delivery Icons/ In Store",
-  component: WagIconInStore,
+  title: "Delivery Icons / Reorder",
+  component: WagIconReorder,
    subcomponent: {  },
   argTypes: {
     
@@ -19,7 +19,7 @@ export default {
 const Template = (args) => (
 
    
-      <WagIconInStore 
+      <WagIconReorder
       size={args.size}
       alt={args.alt}
       fill={args.fill}
@@ -32,12 +32,11 @@ Default.args = {
 };
 
 export const Smaller_Size = () => (
-  <WagIconInStore
-  />
+  <WagIconReorder/>
 );
 
 export const Larger_Size = () => (
-  <WagIconInStore
+  <WagIconReorder
     size="sixty-four"
   />
 );

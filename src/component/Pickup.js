@@ -66,6 +66,6 @@ size:PropTypes.oneOf(["default", "sixty-four"]),
 
 WagIconPickup.defaultProps = {
     size:"default",
-    alt: "In Shop",
+    alt: "Pickup",
     fill:"#284b9b"
 };

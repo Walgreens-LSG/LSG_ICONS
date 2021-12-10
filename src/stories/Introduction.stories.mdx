@@ -25,6 +25,11 @@ import {WagIconClockSameDayPickup} from '../component/ClockSameDayPickup.js';
 
 import {WagIconInStore} from '../component/In-Store.js';
 import {WagIconPickup} from '../component/Pickup.js';
+import {WagIconReorder} from '../component/Reorder.js';
+import {WagIconSameDayDelivery} from '../component/SameDayDelivery.js';
+import {WagIconShipToHome} from '../component/ShipToHome.js';
+import {WagIconShoppingBagWithClock} from '../component/ShoppingWithClock.js';
+import {WagIconShipping} from '../component/Shipping.js';
 
 <Meta title="Example /Introduction" />
 
@@ -146,143 +151,183 @@ Available library icons are listed below based on category.
 
 <div className="link-list">
   <table>
-    <tr>
-      <th className="subheading">General Icons</th>
-      <th></th>
-    </tr>
-    <tr>
-      <th>Icon</th>
-      <th>Icon Name</th>
-    </tr>
-    <tr>
-      <td><WagIconAvatar size="sixty-four"/></td>
-      <td>Avatar</td>
-    </tr>
-    <tr>
-      <td><WagIconAvatarAlt size="sixty-four"/></td>
-      <td>Avatar Alt</td>
-    </tr>
-    <tr>
-      <td><WagIconCommunity size="sixty-four"/></td>
-      <td>Community</td>
-    </tr>
-    <tr>
-      <td><WagIconFamily size="sixty-four"/></td>
-      <td>Family</td>
-    </tr>
-    <tr>
-      <td><WagIconNurse size="sixty-four"/></td>
-      <td>Nurse</td>
-    </tr>
-    <tr>
-      <td><WagIconPharmacist size="sixty-four"/></td>
-      <td>Pharmacist</td>
-    </tr>
-    <tr>
-      <td><WagIconSignIn size="sixty-four"/></td>
-      <td>Sign In</td>
-    </tr>
+    <thead>
+      <tr>
+        <th className="subheading">General Icons</th>
+        <th></th>
+      </tr>
+      <tr>
+        <th>Icon</th>
+        <th>Icon Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><WagIconAvatar size="sixty-four"/></td>
+        <td>Avatar</td>
+      </tr>
+      <tr>
+        <td><WagIconAvatarAlt size="sixty-four"/></td>
+        <td>Avatar Alt</td>
+      </tr>
+      <tr>
+        <td><WagIconCommunity size="sixty-four"/></td>
+        <td>Community</td>
+      </tr>
+      <tr>
+        <td><WagIconFamily size="sixty-four"/></td>
+        <td>Family</td>
+      </tr>
+      <tr>
+        <td><WagIconNurse size="sixty-four"/></td>
+        <td>Nurse</td>
+      </tr>
+      <tr>
+        <td><WagIconPharmacist size="sixty-four"/></td>
+        <td>Pharmacist</td>
+      </tr>
+      <tr>
+        <td><WagIconSignIn size="sixty-four"/></td>
+        <td>Sign In</td>
+      </tr>
+    </tbody>
   </table>
 
   <table>
-    <tr>
-      <th className="subheading">Chat Icons</th>
-      <th></th>
-    </tr>
-    <tr>
-      <th>Icon</th>
-      <th>Icon Name</th>
-    </tr>
-    <tr>
-      <td><WagIconChat size="sixty-four"/></td>
-      <td>Chat</td>
-    </tr>
-    <tr>
-      <td><WagIconChatAlt size="sixty-four"/></td>
-      <td>Chat Alt</td>
-    </tr>
-    <tr>
-      <td><WagIconChatRx size="sixty-four"/></td>
-      <td>Chat Rx</td>
-    </tr>
+    <thead>
+      <tr>
+        <th className="subheading">Chat Icons</th>
+        <th></th>
+      </tr>
+      <tr>
+        <th>Icon</th>
+        <th>Icon Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><WagIconChat size="sixty-four"/></td>
+        <td>Chat</td>
+      </tr>
+      <tr>
+        <td><WagIconChatAlt size="sixty-four"/></td>
+        <td>Chat Alt</td>
+      </tr>
+      <tr>
+        <td><WagIconChatRx size="sixty-four"/></td>
+        <td>Chat Rx</td>
+      </tr>
+    </tbody>
   </table>
 
 
   <table>
-    <tr>
-      <th className="subheading">Date & Time Icons</th>
-      <th></th>
-    </tr>
-    <tr>
-      <th>Icon</th>
-      <th>Icon Name</th>
-    </tr>
-    <tr>
-      <td><WagIconCalendar size="sixty-four"/></td>
-      <td>Calendar</td>
-    </tr>
-    <tr>
-      <td><WagIconCalendar7DaysAWeek size="sixty-four"/></td>
-      <td>Calendar - 7 Days a Week</td>
-    </tr>
-    <tr>
-      <td><WagIconCalendar12Month size="sixty-four"/></td>
-      <td>Calendar - 12 Month</td>
-    </tr>
-    <tr>
-      <td><WagIconCalendar18Month size="sixty-four"/></td>
-      <td>Calendar - 18 Month</td>
-    </tr>
-    <tr>
-      <td><WagIconClock size="sixty-four"/></td>
-      <td>Clock</td>
-    </tr>
-    <tr>
-      <td><WagIconClock24Hours size="sixty-four"/></td>
-      <td>Clock - 24 Hours</td>
-    </tr>
-    <tr>
-      <td><WagIconClockAutoReorder size="sixty-four"/></td>
-      <td>Clock - Auto Reorder</td>
-    </tr>
-    <tr>
-      <td><WagIconClockSameDayPickup size="sixty-four"/></td>
-      <td>Clock - Same day pickup</td>
-    </tr>
+    <thead>
+      <tr>
+        <th className="subheading">Date & Time Icons</th>
+        <th></th>
+      </tr>
+      <tr>
+        <th>Icon</th>
+        <th>Icon Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><WagIconCalendar size="sixty-four"/></td>
+        <td>Calendar</td>
+      </tr>
+      <tr>
+        <td><WagIconCalendar7DaysAWeek size="sixty-four"/></td>
+        <td>Calendar - 7 Days a Week</td>
+      </tr>
+      <tr>
+        <td><WagIconCalendar12Month size="sixty-four"/></td>
+        <td>Calendar - 12 Month</td>
+      </tr>
+      <tr>
+        <td><WagIconCalendar18Month size="sixty-four"/></td>
+        <td>Calendar - 18 Month</td>
+      </tr>
+      <tr>
+        <td><WagIconClock size="sixty-four"/></td>
+        <td>Clock</td>
+      </tr>
+      <tr>
+        <td><WagIconClock24Hours size="sixty-four"/></td>
+        <td>Clock - 24 Hours</td>
+      </tr>
+      <tr>
+        <td><WagIconClockAutoReorder size="sixty-four"/></td>
+        <td>Clock - Auto Reorder</td>
+      </tr>
+      <tr>
+        <td><WagIconClockSameDayPickup size="sixty-four"/></td>
+        <td>Clock - Same day pickup</td>
+      </tr>
+    </tbody>
   </table>
 
   <table>
-    <tr>
-      <th className="subheading">Delivery Icons</th>
-      <th></th>
-    </tr>
+    <thead>
+      <tr>
+        <th className="subheading">Delivery Icons</th>
+        <th></th>
+      </tr>
     <tr>
       <th>Icon</th>
       <th>Icon Name</th>
     </tr>
-    <tr>
-      <td><WagIconInStore size="sixty-four"/></td>
-      <td>In Store</td>
-    </tr>
-    <tr>
-      <td><WagIconPickup size="sixty-four"/></td>
-      <td>Pickup</td>
-    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><WagIconInStore size="sixty-four"/></td>
+        <td>In Store</td>
+      </tr>
+      <tr>
+        <td><WagIconPickup size="sixty-four"/></td>
+        <td>Pickup</td>
+      </tr>
+      <tr>
+        <td><WagIconReorder size="sixty-four"/></td>
+        <td>Reorder</td>
+      </tr>
+      <tr>
+        <td><WagIconSameDayDelivery size="sixty-four"/></td>
+        <td>Same day delivery</td>
+      </tr>
+      <tr>
+        <td><WagIconShipToHome size="sixty-four"/></td>
+        <td>Ship to home </td>
+      </tr>
+      <tr>
+        <td><WagIconShoppingBagWithClock size="sixty-four"/></td>
+        <td>Shopping Bag with clock </td>
+      </tr>
+      <tr>
+        <td><WagIconShipping size="sixty-four"/></td>
+        <td>Shipping </td>
+      </tr>
+    </tbody>
   </table>
 
   <table>
-    <tr>
-      <th className="subheading">Alert Icons</th>
-      <th></th>
-    </tr>
-    <tr>
-      <th>Icon</th>
-      <th>Icon Name</th>
-    </tr>
-    <tr>
-      <td><WagIconAlert size="sixty-four"/></td>
-      <td>Alert</td>
-    </tr>
+    <thead>
+      <tr>
+        <th className="subheading">Alert Icons</th>
+        <th></th>
+      </tr>
+      <tr>
+        <th>Icon</th>
+        <th>Icon Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><WagIconAlert size="sixty-four"/></td>
+        <td>Alert</td>
+      </tr>
+    </tbody>
   </table>
 </div>
 

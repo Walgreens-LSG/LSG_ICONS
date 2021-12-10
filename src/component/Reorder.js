@@ -3,11 +3,11 @@ import styled from "@emotion/styled";
 import PropTypes from "prop-types";
 
 //list of imported Walgreens LSG Icons
-import {ReactComponent as InStore} from "../stories/assets/individual/in-store.svg";
+import {ReactComponent as Reorder} from "../stories/assets/individual/reorder.svg";
 
 
 //Storybook Constants
-export const WagIconInStore = ({
+export const WagIconReorder = ({
     
     //component props
     children,
@@ -19,7 +19,7 @@ export const WagIconInStore = ({
         SIXTYFOUR:"sixty-four",
     };
 
-    const WagIconInStore = styled(InStore)`
+    const WagIconReorder = styled(Reorder)`
       
         ${(props)=>
         props.size === KIND.DEFAULT &&
@@ -36,7 +36,7 @@ export const WagIconInStore = ({
   
    
     return(
-       <WagIconInStore
+       <WagIconReorder
        {...props}
        size={size}
        alt={props.alt}
@@ -48,7 +48,7 @@ export const WagIconInStore = ({
 
 
 
-WagIconInStore.propTypes = {
+WagIconReorder.propTypes = {
 /**
  * What kind of Icon will you be using? 32x32(default) , 64x64, or other...
  */
@@ -64,8 +64,8 @@ size:PropTypes.oneOf(["default", "sixty-four"]),
 
 };
 
-WagIconInStore.defaultProps = {
+WagIconReorder.defaultProps = {
     size:"default",
-    alt: "In Store",
+    alt: "Reorder",
     fill:"#284b9b"
 };
