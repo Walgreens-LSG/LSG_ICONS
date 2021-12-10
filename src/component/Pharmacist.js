@@ -40,7 +40,8 @@ export const WagIconPharmacist = ({
        {...props}
        size={size}
        alt={props.alt}
-       fill={props.fill}       
+       fill={props.fill}
+       aria-label={props.alt}       
        />
    );
 };
@@ -53,7 +54,7 @@ WagIconPharmacist.propTypes = {
  */
 size:PropTypes.oneOf(["default", "sixty-four"]),
 /**
-* What is your SVG's Alternative Text?
+* What is your SVG's Alternative Text and Aria label?
  */
  alt:PropTypes.string.isRequired,
 /**

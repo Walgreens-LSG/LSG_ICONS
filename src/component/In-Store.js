@@ -3,11 +3,11 @@ import styled from "@emotion/styled";
 import PropTypes from "prop-types";
 
 //list of imported Walgreens LSG Icons
-import {ReactComponent as Calendar} from "../stories/assets/individual/18-month.svg";
+import {ReactComponent as InStore} from "../stories/assets/individual/in-store.svg";
 
 
 //Storybook Constants
-export const WagIconCalendar18Month = ({
+export const WagIconInStore = ({
     
     //component props
     children,
@@ -19,7 +19,7 @@ export const WagIconCalendar18Month = ({
         SIXTYFOUR:"sixty-four",
     };
 
-    const WagIconCalendar18Month = styled(Calendar)`
+    const WagIconInStore = styled(InStore)`
       
         ${(props)=>
         props.size === KIND.DEFAULT &&
@@ -36,25 +36,25 @@ export const WagIconCalendar18Month = ({
   
    
     return(
-       <WagIconCalendar18Month
+       <WagIconInStore
        {...props}
        size={size}
        alt={props.alt}
        aria-label={props.alt}
-       fill={props.fill}
+       fill={props.fill}       
        />
    );
 };
 
 
 
-WagIconCalendar18Month.propTypes = {
+WagIconInStore.propTypes = {
 /**
  * What kind of Icon will you be using? 32x32(default) , 64x64, or other...
  */
 size:PropTypes.oneOf(["default", "sixty-four"]),
 /**
-* What is your SVG's Alternative Text and Aria label?
+* What is your SVG's Alternative Text and Aria Label?
  */
  alt:PropTypes.string.isRequired,
 /**
@@ -64,8 +64,8 @@ size:PropTypes.oneOf(["default", "sixty-four"]),
 
 };
 
-WagIconCalendar18Month.defaultProps = {
+WagIconInStore.defaultProps = {
     size:"default",
-    alt: "Calendar",
-    fill: "#284b9b"
+    alt: "In Shop",
+    fill:"#284b9b"
 };

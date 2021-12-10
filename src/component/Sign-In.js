@@ -40,6 +40,7 @@ export const WagIconSignIn = ({
        {...props}
        size={size}
        alt={props.alt}
+       aria-label={props.alt}
        fill={props.fill}
        > </WagIconSignIn>
    );
@@ -53,7 +54,7 @@ WagIconSignIn.propTypes = {
  */
 size:PropTypes.oneOf(["default", "sixty-four"]),
 /**
-* What is your SVG's Alternative Text?
+* What is your SVG's Alternative Text and Aria Label?
  */
  alt:PropTypes.string.isRequired,
 /**

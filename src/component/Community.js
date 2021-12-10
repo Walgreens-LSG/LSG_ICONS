@@ -41,6 +41,7 @@ export const WagIconCommunity = ({
        {...props}
        size={size}
        alt={props.alt}
+       aria-label={props.alt}
        fill={props.fill}       
        />
    );
@@ -54,7 +55,7 @@ WagIconCommunity.propTypes = {
  */
 size:PropTypes.oneOf(["default", "sixty-four"]),
 /**
-* What is your SVG's Alternative Text?
+* What is your SVG's Alternative Text and Aria label?
  */
  alt:PropTypes.string.isRequired,
 /**
