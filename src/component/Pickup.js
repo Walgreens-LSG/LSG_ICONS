@@ -3,11 +3,11 @@ import styled from "@emotion/styled";
 import PropTypes from "prop-types";
 
 //list of imported Walgreens LSG Icons
-import { ReactComponent as Community} from "../stories/assets/individual/community.svg";
+import {ReactComponent as Pickup} from "../stories/assets/individual/car.svg";
 
 
 //Storybook Constants
-export const WagIconCommunity = ({
+export const WagIconPickup = ({
     
     //component props
     children,
@@ -19,7 +19,7 @@ export const WagIconCommunity = ({
         SIXTYFOUR:"sixty-four",
     };
 
-    const WagIconCommunity = styled(Community)`
+    const WagIconPickup = styled(Pickup)`
       
         ${(props)=>
         props.size === KIND.DEFAULT &&
@@ -36,7 +36,7 @@ export const WagIconCommunity = ({
   
    
     return(
-       <WagIconCommunity
+       <WagIconPickup
        {...props}
        size={size}
        alt={props.alt}
@@ -48,13 +48,13 @@ export const WagIconCommunity = ({
 
 
 
-WagIconCommunity.propTypes = {
+WagIconPickup.propTypes = {
 /**
  * What kind of Icon will you be using? 32x32(default) , 64x64, or other...
  */
 size:PropTypes.oneOf(["default", "sixty-four"]),
 /**
-* What is your SVG's Alternative Text and Aria label?
+* What is your SVG's Alternative Text and Aria Label?
  */
  alt:PropTypes.string.isRequired,
 /**
@@ -64,8 +64,8 @@ size:PropTypes.oneOf(["default", "sixty-four"]),
 
 };
 
-WagIconCommunity.defaultProps = {
+WagIconPickup.defaultProps = {
     size:"default",
-    alt: "Community",
+    alt: "In Shop",
     fill:"#284b9b"
 };

@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
 import PropTypes from "prop-types";
-import { Image} from '@chakra-ui/react';
 
 //list of imported Walgreens LSG Icons
 import {ReactComponent as Nurse} from "../stories/assets/individual/nurse.svg";
