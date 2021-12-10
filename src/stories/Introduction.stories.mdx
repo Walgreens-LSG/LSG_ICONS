@@ -1,7 +1,32 @@
 import { Meta } from '@storybook/addon-docs';
 
 
-<Meta title="Example/Introduction" />
+import {WagIconAlert} from '../component/Alert.js';
+import {WagIconAvatar} from '../component/Avatar.js';
+import {WagIconAvatarAlt} from '../component/AvatarAlt.js';
+import {WagIconCommunity} from '../component/Community.js';
+import {WagIconFamily} from '../component/Family.js';
+import {WagIconNurse} from '../component/Nurse.js';
+import {WagIconPharmacist} from '../component/Pharmacist.js';
+import {WagIconSignIn} from '../component/Sign-In.js';
+
+import {WagIconChat} from '../component/Chat.js';
+import {WagIconChatAlt} from '../component/ChatAlt.js';
+import {WagIconChatRx} from '../component/ChatRx.js';
+
+import {WagIconCalendar} from '../component/Calendar.js';
+import {WagIconCalendar7DaysAWeek} from '../component/Calendar7DaysAWeek.js';
+import {WagIconCalendar12Month} from '../component/Calendar12Month.js';
+import {WagIconCalendar18Month} from '../component/Calendar18Month.js';
+import {WagIconClock} from '../component/Clock.js';
+import {WagIconClock24Hours} from '../component/Clock24Hours.js';
+import {WagIconClockAutoReorder} from '../component/ClockAutoReorder.js';
+import {WagIconClockSameDayPickup} from '../component/ClockSameDayPickup.js';
+
+import {WagIconInStore} from '../component/In-Store.js';
+import {WagIconPickup} from '../component/Pickup.js';
+
+<Meta title="Example /Introduction" />
 
 <style>{`
   .subheading {
@@ -14,6 +39,11 @@ import { Meta } from '@storybook/addon-docs';
     text-transform: uppercase;
     margin-bottom: 12px;
     margin-top: 40px;
+  }
+
+  table{
+    width: content-fit;
+    height: fit-content;
   }
 
   .link-list {
@@ -107,26 +137,162 @@ import { Meta } from '@storybook/addon-docs';
   
 `}</style>
 
-# Welcome to Storybook
+# Welcome to Walgreen's LSG Icon Library
 
-Storybook helps you build UI components in isolation from your app's business logic, data, and context.
-That makes it easy to develop hard-to-reach states. Save these UI states as **stories** to revisit during development, testing, or QA.
+All of Walgreen's icons can be found located within this react library.
 
-Browse example stories now by navigating to them in the sidebar.
-View their code in the `src/stories` directory to learn how they work.
-We recommend building UIs with a [**component-driven**](https://componentdriven.org) process starting with atomic components and ending with pages.
+Available library icons are listed below based on category.
 
-<div className="subheading">Configure</div>
+
+<div className="link-list">
+  <table>
+    <tr>
+      <th className="subheading">General Icons</th>
+      <th></th>
+    </tr>
+    <tr>
+      <th>Icon</th>
+      <th>Icon Name</th>
+    </tr>
+    <tr>
+      <td><WagIconAvatar size="sixty-four"/></td>
+      <td>Avatar</td>
+    </tr>
+    <tr>
+      <td><WagIconAvatarAlt size="sixty-four"/></td>
+      <td>Avatar Alt</td>
+    </tr>
+    <tr>
+      <td><WagIconCommunity size="sixty-four"/></td>
+      <td>Community</td>
+    </tr>
+    <tr>
+      <td><WagIconFamily size="sixty-four"/></td>
+      <td>Family</td>
+    </tr>
+    <tr>
+      <td><WagIconNurse size="sixty-four"/></td>
+      <td>Nurse</td>
+    </tr>
+    <tr>
+      <td><WagIconPharmacist size="sixty-four"/></td>
+      <td>Pharmacist</td>
+    </tr>
+    <tr>
+      <td><WagIconSignIn size="sixty-four"/></td>
+      <td>Sign In</td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th className="subheading">Chat Icons</th>
+      <th></th>
+    </tr>
+    <tr>
+      <th>Icon</th>
+      <th>Icon Name</th>
+    </tr>
+    <tr>
+      <td><WagIconChat size="sixty-four"/></td>
+      <td>Chat</td>
+    </tr>
+    <tr>
+      <td><WagIconChatAlt size="sixty-four"/></td>
+      <td>Chat Alt</td>
+    </tr>
+    <tr>
+      <td><WagIconChatRx size="sixty-four"/></td>
+      <td>Chat Rx</td>
+    </tr>
+  </table>
+
+
+  <table>
+    <tr>
+      <th className="subheading">Date & Time Icons</th>
+      <th></th>
+    </tr>
+    <tr>
+      <th>Icon</th>
+      <th>Icon Name</th>
+    </tr>
+    <tr>
+      <td><WagIconCalendar size="sixty-four"/></td>
+      <td>Calendar</td>
+    </tr>
+    <tr>
+      <td><WagIconCalendar7DaysAWeek size="sixty-four"/></td>
+      <td>Calendar - 7 Days a Week</td>
+    </tr>
+    <tr>
+      <td><WagIconCalendar12Month size="sixty-four"/></td>
+      <td>Calendar - 12 Month</td>
+    </tr>
+    <tr>
+      <td><WagIconCalendar18Month size="sixty-four"/></td>
+      <td>Calendar - 18 Month</td>
+    </tr>
+    <tr>
+      <td><WagIconClock size="sixty-four"/></td>
+      <td>Clock</td>
+    </tr>
+    <tr>
+      <td><WagIconClock24Hours size="sixty-four"/></td>
+      <td>Clock - 24 Hours</td>
+    </tr>
+    <tr>
+      <td><WagIconClockAutoReorder size="sixty-four"/></td>
+      <td>Clock - Auto Reorder</td>
+    </tr>
+    <tr>
+      <td><WagIconClockSameDayPickup size="sixty-four"/></td>
+      <td>Clock - Same day pickup</td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th className="subheading">Delivery Icons</th>
+      <th></th>
+    </tr>
+    <tr>
+      <th>Icon</th>
+      <th>Icon Name</th>
+    </tr>
+    <tr>
+      <td><WagIconInStore size="sixty-four"/></td>
+      <td>In Store</td>
+    </tr>
+    <tr>
+      <td><WagIconPickup size="sixty-four"/></td>
+      <td>Pickup</td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th className="subheading">Alert Icons</th>
+      <th></th>
+    </tr>
+    <tr>
+      <th>Icon</th>
+      <th>Icon Name</th>
+    </tr>
+    <tr>
+      <td><WagIconAlert size="sixty-four"/></td>
+      <td>Alert</td>
+    </tr>
+  </table>
+</div>
+
+<div className="subheading">Alerts</div>
 
 <div className="link-list">
   
 </div>
 
-<div className="subheading">Learn</div>
 
-<div className="link-list">
-  
-</div>
 
 <div className="tip-wrapper">
   <span className="tip">Tip</span>Edit the Markdown in{' '}
