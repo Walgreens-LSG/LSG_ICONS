@@ -31,6 +31,14 @@ import {WagIconShipToHome} from '../component/ShipToHome.js';
 import {WagIconShoppingBagWithClock} from '../component/ShoppingWithClock.js';
 import {WagIconShipping} from '../component/Shipping.js';
 
+import {WagIconCamera} from '../component/Camera.js';
+import {WagIconDesktop} from '../component/Desktop.js';
+import {WagIconKiosk} from '../component/Kiosk.js';
+import {WagIconPhone} from '../component/Phone.js';
+import {WagIconTablet} from '../component/Tablet.js';
+import {WagIconUSB} from '../component/USB.js';
+import {WagIconWearables} from '../component/Wearables.js';
+
 <Meta title="Example /Introduction" />
 
 <style>{`
@@ -139,14 +147,24 @@ import {WagIconShipping} from '../component/Shipping.js';
     display: inline-block;
   }
 
+  h2{
+    margin-top: 2em !important;
+    font-size: 2.25em !important;
+  }
+
+  p{
+    font-size: 1em !important;
+  }
+
   
 `}</style>
 
-# Welcome to Walgreen's LSG Icon Library
+# Welcome to Walgreen's Live Style Guide (LSG) Icon Library
 
-All of Walgreen's icons can be found located within this react library.
+All of Walgreen's LSG icons can be found located within this react library.
 
-Available library icons are listed below based on category.
+## Available Icons
+All icons are listed by category.
 
 
 <div className="link-list">
@@ -307,6 +325,49 @@ Available library icons are listed below based on category.
       <tr>
         <td><WagIconShipping size="sixty-four"/></td>
         <td>Shipping </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <thead>
+      <tr>
+        <th className="subheading">Device Icons</th>
+        <th></th>
+      </tr>
+      <tr>
+        <th>Icon</th>
+        <th>Icon Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><WagIconCamera size="sixty-four"/></td>
+        <td>Camera</td>
+      </tr>
+      <tr>
+        <td><WagIconDesktop size="sixty-four"/></td>
+        <td>Desktop</td>
+      </tr>
+      <tr>
+        <td><WagIconKiosk size="sixty-four"/></td>
+        <td>Kiosk</td>
+      </tr>
+      <tr>
+        <td><WagIconPhone size="sixty-four"/></td>
+        <td>Phone</td>
+      </tr>
+      <tr>
+        <td><WagIconTablet size="sixty-four"/></td>
+        <td>Tablet</td>
+      </tr>
+      <tr>
+        <td><WagIconUSB size="sixty-four"/></td>
+        <td>USB</td>
+      </tr>
+      <tr>
+        <td><WagIconWearables size="sixty-four"/></td>
+        <td>Wearables</td>
       </tr>
     </tbody>
   </table>
