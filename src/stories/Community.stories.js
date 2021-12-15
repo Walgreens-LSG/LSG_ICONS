@@ -6,7 +6,7 @@ import { WagIconCommunity } from "../component/Community";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "General Icons/ Community",
+  title: "Avatar Icons/ Community",
   component: WagIconCommunity,
    subcomponent: {  },
   argTypes: {

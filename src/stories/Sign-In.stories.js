@@ -6,7 +6,7 @@ import {WagIconSignIn} from "../component/Sign-In";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "General Icons/ Sign In",
+  title: "Avatar Icons/ Sign In",
   component: WagIconSignIn,
    subcomponent: {  },
   argTypes: {

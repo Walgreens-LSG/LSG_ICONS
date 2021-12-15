@@ -6,7 +6,7 @@ import {WagIconFamily} from "../component/Family.js";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "General Icons/ Family",
+  title: "Avatar Icons/ Family",
   component: WagIconFamily,
    subcomponent: {  },
   argTypes: {

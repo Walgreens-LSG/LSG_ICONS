@@ -6,7 +6,7 @@ import { WagIconPharmacist } from "../component/Pharmacist";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "General Icons/ Pharmacist",
+  title: "Avatar Icons/ Pharmacist",
   component: WagIconPharmacist,
    subcomponent: {  },
   argTypes: {
