@@ -104,6 +104,12 @@ import {WagIconRxHealth} from '../component/Rx_Health.js';
 import {WagIconRxMobile} from '../component/Rx_Mobile.js';
 import {WagIconRxPad} from '../component/Rx_Pad.js';
 
+import {WagIconContactLenses} from '../component/ContactLenses.js';
+import {WagIconDental} from '../component/Dental.js';
+import {WagIconHearing} from '../component/Hearing.js';
+import {WagIconOptical} from '../component/Optical.js';
+import {WagIconInhaler} from '../component/Inhaler.js';
+
 <Meta title="Example /Introduction" />
 
 <style>{`
@@ -121,7 +127,10 @@ import {WagIconRxPad} from '../component/Rx_Pad.js';
 
   table{
     width: content-fit;
-    height: fit-content;
+  }
+
+  table td {
+    height: content-fit;
   }
 
   .link-list {
@@ -772,7 +781,7 @@ All pharmacy icons are listed by category.
   <table>
     <thead>
       <tr>
-        <th className="subheading">Alert Icons</th>
+        <th className="subheading">Services Icons</th>
         <th></th>
       </tr>
       <tr>
@@ -782,11 +791,70 @@ All pharmacy icons are listed by category.
     </thead>
     <tbody>
       <tr>
-        <td><WagIconAlert size="sixty-four"/></td>
-        <td>Alert</td>
+        <td><WagIconContactLenses size="sixty-four"/></td>
+        <td>Contact lenses</td>
+      </tr>
+      <tr>
+        <td><WagIconDental size="sixty-four"/></td>
+        <td>Dental</td>
+      </tr>
+      <tr>
+        <td><WagIconHearing size="sixty-four"/></td>
+        <td>Hearing</td>
+      </tr>
+      <tr>
+        <td><WagIconInhaler size="sixty-four"/></td>
+        <td>Inhaler</td>
+      </tr>
+      <tr>
+        <td><WagIconOptical size="sixty-four"/></td>
+        <td>Optical</td>
       </tr>
     </tbody>
   </table>
+</div>
+
+## Available User Interface Icons
+All user interface icons are listed by category
+
+<div className="link-list">
+  <table>
+      <thead>
+        <tr>
+          <th className="subheading">Actions Icons</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Icon</th>
+          <th>Icon Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><WagIconAlert size="sixty-four"/></td>
+          <td>Cicle - Plus/Add </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <table>
+      <thead>
+        <tr>
+          <th className="subheading">Alerts Icons</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Icon</th>
+          <th>Icon Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><WagIconAlert size="sixty-four"/></td>
+          <td>Alert </td>
+        </tr>
+      </tbody>
+    </table>
 </div>
 
 
