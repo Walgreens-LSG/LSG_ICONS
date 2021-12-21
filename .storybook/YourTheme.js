@@ -6,7 +6,7 @@ export default create({
 
     brandTitle: 'Walgreens\'s | Live Style Guide Icon Library',
     brandUrl: "https://walgreens.com",
-    brandImage: (process.env.NODE_ENV === 'production') ? logoUrl : "/logo-mark.svg",
+    brandImage: "/logo-mark.svg",
 
     //Typography
     fontBase:'"Source Sans Pro", sans-serif',
