@@ -1,6 +1,5 @@
 //import { propNames } from "@chakra-ui/react";
 import React from "react";
-import { WagIconPin } from "../component/Pin";
 import { WagIconRestricted } from "../component/Restricted";
 
 //import icon below
