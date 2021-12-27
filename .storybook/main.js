@@ -10,5 +10,5 @@ module.exports = {
   ],
   "framework": "@storybook/react",
   //My storybook Configuration
-  ref: { disable: true}
+  ref: { disable: true}  
 }
