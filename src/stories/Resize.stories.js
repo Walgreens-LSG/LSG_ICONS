@@ -6,7 +6,7 @@ import { WagIconResize } from "../component/Resize";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Photo / Resize",
+  title: "Photo Icons/ Resize",
   component: WagIconResize,
    subcomponent: {  },
   argTypes: {

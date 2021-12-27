@@ -6,7 +6,7 @@ import { WagIconStarAlt } from "../component/StarAlt";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Gamification / Star - alt",
+  title: "Gamification Icons/ Star - alt",
   component: WagIconStarAlt,
    subcomponent: {  },
   argTypes: {

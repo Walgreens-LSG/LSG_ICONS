@@ -6,7 +6,7 @@ import { WagIconEmail } from "../component/Email";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Misc / Email",
+  title: "Misc Icons / Email",
   component: WagIconEmail,
    subcomponent: {  },
   argTypes: {

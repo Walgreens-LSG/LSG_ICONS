@@ -6,7 +6,7 @@ import { WagIconList } from "../component/List";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Misc / List",
+  title: "Misc Icons / List",
   component: WagIconList,
    subcomponent: {  },
   argTypes: {

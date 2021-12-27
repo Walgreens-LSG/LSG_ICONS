@@ -6,7 +6,7 @@ import { WagIconDownload } from "../component/Download";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Arrows/ Download",
+  title: "Arrows Icons/ Download",
   component: WagIconDownload,
    subcomponent: {  },
   argTypes: {

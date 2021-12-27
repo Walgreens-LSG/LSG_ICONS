@@ -6,7 +6,7 @@ import { WagIconTrophy } from "../component/Trophy";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Gamification / Trophy",
+  title: "Gamification Icons/ Trophy",
   component: WagIconTrophy,
    subcomponent: {  },
   argTypes: {

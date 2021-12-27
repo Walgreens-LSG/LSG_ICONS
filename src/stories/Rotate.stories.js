@@ -6,7 +6,7 @@ import { WagIconRotate } from "../component/Rotate";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Photo /Rotate",
+  title: "Photo Icons/Rotate",
   component: WagIconRotate,
    subcomponent: {  },
   argTypes: {

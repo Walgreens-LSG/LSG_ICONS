@@ -6,7 +6,7 @@ import { WagIconAlbums } from "../component/Albums";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Photo / Albums",
+  title: "Photo Icons/ Albums",
   component: WagIconAlbums,
    subcomponent: {  },
   argTypes: {

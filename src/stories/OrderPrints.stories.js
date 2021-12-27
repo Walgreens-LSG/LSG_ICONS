@@ -6,7 +6,7 @@ import { WagIconOrderPrints } from "../component/OrderPrints";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Photo / Order Prints",
+  title: "Photo Icons/ Order Prints",
   component: WagIconOrderPrints,
    subcomponent: {  },
   argTypes: {

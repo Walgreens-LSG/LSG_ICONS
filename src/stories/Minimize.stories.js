@@ -6,7 +6,7 @@ import { WagIconMinimize } from "../component/Minimize";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Arrows/ Minimize",
+  title: "Arrows Icons/ Minimize",
   component: WagIconMinimize,
    subcomponent: {  },
   argTypes: {
