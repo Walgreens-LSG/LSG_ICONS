@@ -6,7 +6,7 @@ import { WagIconCrop } from "../component/Crop";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Photo / Crop",
+  title: "Photo Icons/ Crop",
   component: WagIconCrop,
    subcomponent: {  },
   argTypes: {

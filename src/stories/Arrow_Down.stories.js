@@ -6,7 +6,7 @@ import { WagIconArrowDown } from "../component/Arrow_Down";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Arrows/ Arrow Down",
+  title: "Arrows Icons/ Arrow Down",
   component: WagIconArrowDown,
    subcomponent: {  },
   argTypes: {

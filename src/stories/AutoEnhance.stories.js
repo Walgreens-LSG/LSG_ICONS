@@ -6,7 +6,7 @@ import { WagIconAutoEnhance } from "../component/AutoEnhance";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Photo / Auto Enhance",
+  title: "Photo Icons / Auto Enhance",
   component: WagIconAutoEnhance,
    subcomponent: {  },
   argTypes: {

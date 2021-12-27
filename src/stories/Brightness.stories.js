@@ -6,7 +6,7 @@ import { WagIconBrightness } from "../component/Brightness";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Photo / Brightness",
+  title: "Photo Icons/ Brightness",
   component: WagIconBrightness,
    subcomponent: {  },
   argTypes: {

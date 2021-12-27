@@ -6,7 +6,7 @@ import { WagIconTrash } from "../component/Trash";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Misc / Trash",
+  title: "Misc Icons / Trash",
   component: WagIconTrash,
    subcomponent: {  },
   argTypes: {

@@ -6,7 +6,7 @@ import { WagIconRestricted } from "../component/Restricted";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Misc / Restricted",
+  title: "Misc Icons / Restricted",
   component: WagIconRestricted,
    subcomponent: {  },
   argTypes: {

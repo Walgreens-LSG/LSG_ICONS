@@ -6,7 +6,7 @@ import { WagIconLink } from "../component/Link";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Misc / Link",
+  title: "Misc Icons / Link",
   component: WagIconLink,
    subcomponent: {  },
   argTypes: {

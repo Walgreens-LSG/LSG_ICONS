@@ -6,7 +6,7 @@ import { WagIconRedEye } from "../component/RedEye";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Photo / Red Eye",
+  title: "Photo Icons/ Red Eye",
   component: WagIconRedEye,
    subcomponent: {  },
   argTypes: {

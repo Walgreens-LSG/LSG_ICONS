@@ -6,7 +6,7 @@ import { WagIconUpload } from "../component/Upload";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Arrows/ Upload",
+  title: "Arrows Icons/ Upload",
   component: WagIconUpload,
    subcomponent: {  },
   argTypes: {

@@ -6,7 +6,7 @@ import { WagIconFavorite } from "../component/Favorite";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Gamification / Favortie",
+  title: "Gamification Icons/ Favortie",
   component: WagIconFavorite,
    subcomponent: {  },
   argTypes: {

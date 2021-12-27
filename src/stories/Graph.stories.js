@@ -6,7 +6,7 @@ import { WagIconGraph } from "../component/Graph";
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: "Misc / Graph",
+  title: "Misc Icons / Graph",
   component: WagIconGraph,
    subcomponent: {  },
   argTypes: {
